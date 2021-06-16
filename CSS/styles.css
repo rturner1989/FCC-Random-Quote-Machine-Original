@@ -1,0 +1,38 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#quote-box {
+    display: grid;
+    grid-template-rows: 175px 50px 50px;
+    width: 500px;
+    height: 277px;
+    border: solid 2px #198754;
+    border-radius: 5px;
+}
+#quote-text {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+#tweet-quote,
+#facebook-quote {
+    border: none;
+    background-color: #198754;
+    transition: transform 250ms;
+}
+#tweet-quote:hover {
+    transform: translateY(-5px);
+}
+#facebook-quote:hover {
+    transform: translateY(-5px);
+}
+#auth-text {
+    padding: 10px;
+    text-align: end;
+}
+#btn-container {
+    padding: 5px;
+}

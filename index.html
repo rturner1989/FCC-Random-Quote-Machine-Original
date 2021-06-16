@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quote Machine</title>
+        <link rel="stylesheet" href="./CSS/styles.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+        />
+        <meta name="author" content="Robert-Turner" />
+        <meta name="description" content="Website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="quote-box">
+                <div id="quote-text">
+                    <span class="quote">"</span><span id="text"></span
+                    ><span class="quote">"</span>
+                </div>
+                <div id="auth-text">- <span id="author"></span></div>
+                <div
+                    id="btn-container"
+                    class="d-flex justify-content-between align-items-center"
+                >
+                    <div id="link-group">
+                        <a
+                            class="btn btn-primary"
+                            id="tweet-quote"
+                            href="twitter.com/intent/tweet"
+                        >
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a
+                            class="btn btn-primary"
+                            id="facebook-quote"
+                            href="www.facebook.com"
+                        >
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn-outline-success" id="new-quote">
+                            New Quote
+                        </button>
+                        <button
+                            class="btn btn-outline-primary"
+                            id="short-quote"
+                        >
+                            Short Quote
+                        </button>
+                        <button class="btn btn-outline-danger" id="long-quote">
+                            Long Quote
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="./JS/index.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</html>
